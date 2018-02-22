@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 ##Commit 1
 
 results = []
-commitVariable = 0
 
 def extractUrl(text):
     html = str(text)
